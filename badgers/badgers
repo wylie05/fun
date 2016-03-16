@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+'use strict'
+var c = require("skilstak-colors");
+
+console.log(c.clear);
+for (var n = 0; n <75; n++) {
+  process.stdout.write(n +c.multi(" Many Badgers"));
+}
